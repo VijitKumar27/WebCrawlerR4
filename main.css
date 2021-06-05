@@ -1,0 +1,302 @@
+body{
+
+    -youbkit-touch-callout: none; /* iOS Safari */
+    -youbkit-user-select: none;   /* Chrome 6.0+, Safari 3.1+, Edge & Opera 15+ */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;        /* IE 10+ and Edge */
+    user-select: none;            /* Non-prefixed version,
+                                currently supported by Chrome and Opera */
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+
+    background-color:turquoise;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    position: relative;
+}
+
+.top-line{
+  font-size: 80px;
+}
+
+.sub-line{
+  font-size: 60px;
+}
+
+.crawl-text{
+  font-size: 25px;
+}
+.spidey-1{
+  position: relative;
+  display: inline-block;
+  top: 10%;
+  left: 40%;
+    height: 30px;
+    width: 40px;
+}
+
+.spidey-gif-1{
+  position: absolute;
+  top: 0;
+}
+
+.spidey-text-1{
+
+    position: absolute;
+    top: -30%;
+  color: black;
+  font-size: 8px;
+  left: 40%;
+height: 10px;
+line-height: 42px;
+  text-align: center;
+
+}
+.spidey-2{
+  position: relative;
+  top: 0;
+  display: inline-block;
+  left: 60%;
+    height: 30px;
+    width: 40px;
+}
+
+.spidey-gif-2{
+  position: absolute;
+  top: 0;
+}
+
+.spidey-text-2{
+
+    position: absolute;
+    top: -40%;
+  color: black;
+  font-size: 8px;
+  left: 43%;
+height: 10px;
+line-height: 45px;
+  text-align: center;
+
+}
+
+
+
+
+.hidden-words{
+  position: relative;
+  top: 80%;
+  width: 600px;
+  height: 600px;
+  left:0;
+}
+
+
+.the-word{
+ font-size:200px;
+  text-align: right;
+  color: turquoise;
+  position: absolute;
+  right:0;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.third-line{
+  color: turquoise;
+ font-size:25px;
+position: absolute;
+right:0;
+top: 60%;
+margin-right: 20px;
+padding: 20px;
+}
+
+.cham{
+  position: absolute;
+  top: 25%;
+  left: 100%;
+}
+
+.keen{
+  position: absolute;
+  top: 60%;
+  left: 110%;
+  width: 200px;
+}
+
+.social{
+  position: absolute;
+}
+
+.vine{
+  top: 60%;
+}
+.fb{
+  top: 40%;
+}
+.linkedin{
+  top: 20%;
+}
+.insta{
+  top: 80%;
+}
+
+
+
+.treasure {
+
+        position: relative;
+        display: inline-block;
+        margin: 50px;
+    }
+    .closed{
+      width: 300px;
+      height: 300px;
+    }
+    .open-img{
+      width: 450px;
+      height: 400px;
+    }
+    .treasure .open {
+        display: none;
+        position: absolute;
+        top: -70px;
+        left: -100px;
+        z-index: 99;
+    }
+    .treasure:hover .open {
+        display: inline;
+    }
+
+.audio-player{
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+
+.shrink-clue{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin:0 auto;
+}
+
+.shrink-text{
+  color: white;
+  position: absolute;
+  left: -100px;
+  top:290px;
+  width: 500px;
+  z-index: 3;
+}
+
+
+.ego-img{
+  position: absolute;
+  left: 0px;
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+}
+.ego-link{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+
+.trash-clue{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin:0 auto;
+}
+
+.link-button{
+  padding: 20px 40px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.trash-img{
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  top: 60px;
+  z-index: 2;
+}
+.trash-link{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+
+
+table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    opacity: 0.6;
+    transition: all .2s ease-in-out;
+  border: 1px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table:hover{
+transform: scale(1.7);
+  opacity: 1;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 1px solid white;
+}
+
+.first-row, .second-row,.third-row, .fourth-row, .fifth-row, .sixth-row, .seventh-row, .img-row{
+  display: flex;
+  padding: 80px 0 80px 0;
+}
+
+.lavendar-pos{
+/*  position: absolute;
+  top: 250px; */
+  margin-top: 0;
+  margin-left: 250px;
+/*  display: flex;
+  justify-content: flex-end; */
+  flex:1;
+}
+
+.insta, .yt{
+  flex: 0.3;
+  margin-right: 100px;
+}
+
+.twit, .girl-fire, .web-dev-meme, .comp-meme, .college-meme, .frontend-meme{
+  flex: 0.75;
+  padding: 50px;
+}
+
+.tr-1, .trash-clue, .tr-3, .green-table, .yellow-table, .blue-table, .purple-table, .tr-4{
+  flex: 1;
+}
+
+.green-table{
+  padding: 0 50px 0 50px;
+  margin-left: 100px;
+  margin-right: 40px;
+}
+
+.seventh-row{
+  padding-top: 90px;
+}
+.purple-table{
+  margin-right: 100px;
+}
